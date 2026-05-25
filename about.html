@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Professional UI/UX Designer Portfolio</title>
+    <meta name="description" content="Learn more about my design philosophy, story, and values.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">AM</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About Me</a>
+            <a href="experience.html">Experience</a>
+            <a href="work.html">Work</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+            <button id="theme-toggle" class="filter-btn" style="padding: 0;">🌓</button>
+        </div>
+        <a href="work.html" class="btn">Let's Work</a>
+    </nav>
+
+    <main class="page-transition container section-padding" style="padding-top: 150px;">
+        <div class="skills-grid">
+            <div class="fade-up">
+                <h1 style="margin-bottom: 2rem;">My Story</h1>
+                <p style="margin-bottom: 1.5rem; font-size: 1.25rem;">I design for humans. With a background in psychology and visual arts, I approach every project by diving deep into user needs before I even open a design tool.</p>
+                <p style="margin-bottom: 1.5rem; color: var(--text-muted);">Over the past 6+ years, I've had the privilege of working with ambitious startups and global enterprises. My mission is simple: translate complex business goals into elegant, intuitive digital experiences.</p>
+                <p style="color: var(--text-muted); margin-bottom: 3rem;">When I'm not designing, you can find me exploring modern architecture, drinking way too much coffee, or experimenting with 3D illustration.</p>
+                
+                <h3 style="margin-bottom: 1.5rem;">Core Values</h3>
+                <ul style="list-style: none;">
+                    <li style="margin-bottom: 1rem; padding-left: 20px; border-left: 2px solid var(--accent-primary);">
+                        <strong>Details Obsessed</strong> - The magic is in the micro-interactions.
+                    </li>
+                    <li style="margin-bottom: 1rem; padding-left: 20px; border-left: 2px solid var(--accent-primary);">
+                        <strong>Collaboration First</strong> - Great design is a team sport.
+                    </li>
+                    <li style="margin-bottom: 1rem; padding-left: 20px; border-left: 2px solid var(--accent-primary);">
+                        <strong>Purpose Driven</strong> - Aesthetics should always serve functionality.
+                    </li>
+                </ul>
+            </div>
+            <div class="fade-up" style="animation-delay: 0.2s;">
+                <div style="border-radius: 20px; overflow: hidden; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Designer working" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+
+        <div class="fade-up" style="margin-top: 100px; max-width: 800px; margin-left: auto; margin-right: auto; text-align: center;">
+            <h2 style="margin-bottom: 3rem;">Beyond Design</h2>
+            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                <div style="background: var(--bg-secondary); padding: 2rem; border-radius: 12px; flex: 1; min-width: 200px;">
+                    <h3 style="margin-bottom: 0.5rem;">📸 Photography</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Capturing brutalist architecture</p>
+                </div>
+                <div style="background: var(--bg-secondary); padding: 2rem; border-radius: 12px; flex: 1; min-width: 200px;">
+                    <h3 style="margin-bottom: 0.5rem;">☕ Coffee Roaster</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Hunting for the perfect pour-over</p>
+                </div>
+                <div style="background: var(--bg-secondary); padding: 2rem; border-radius: 12px; flex: 1; min-width: 200px;">
+                    <h3 style="margin-bottom: 0.5rem;">🏃‍♂️ Marathoner</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Endurance in sports and design</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

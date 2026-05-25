@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Professional UI/UX Designer Portfolio</title>
+    <meta name="description" content="Get in touch for freelance opportunities, collaborations, or just to say hi.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">AM</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="experience.html">Experience</a>
+            <a href="work.html">Work</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html" class="active">Contact</a>
+            <button id="theme-toggle" class="filter-btn" style="padding: 0;">🌓</button>
+        </div>
+        <a href="work.html" class="btn">Let's Work</a>
+    </nav>
+
+    <main class="page-transition container section-padding" style="padding-top: 150px;">
+        <div class="contact-wrapper">
+            <div class="contact-info fade-up">
+                <h1>Let's build something<br>beautiful together.</h1>
+                <p style="font-size: 1.25rem; color: var(--text-muted); margin-bottom: 2rem; max-width: 400px;">Whether you have a specific project in mind or just want to chat about design, I'd love to hear from you.</p>
+                
+                <div class="availability">
+                    <span class="dot"></span>
+                    Currently available for freelance
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="margin-bottom: 0.5rem; font-family: var(--font-heading);">Email Me</h4>
+                    <a href="mailto:hello@designer.com" style="font-size: 1.25rem; font-weight: 500; border-bottom: 2px solid var(--accent-primary); padding-bottom: 2px;">hello@designer.com</a>
+                </div>
+
+                <div>
+                    <h4 style="margin-bottom: 0.5rem; font-family: var(--font-heading);">Connect</h4>
+                    <div class="social-links">
+                        <!-- Using text icons for simplicity, but SVGs can be dropped here -->
+                        <a href="https://behance.net" target="_blank" aria-label="Behance">Bë</a>
+                        <a href="https://dribbble.com" target="_blank" aria-label="Dribbble">Dr</a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">In</a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter">𝕏</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form fade-up" style="animation-delay: 0.2s;">
+                <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Form submitted! (This is a visually implemented UI)');">
+                    <div class="form-group" style="margin-bottom: 1.5rem;">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    
+                    <div class="form-group" style="margin-bottom: 1.5rem;">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+
+                    <div class="form-group" style="margin-bottom: 1.5rem;">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                    </div>
+                    
+                    <div class="form-group" style="margin-bottom: 2.5rem;">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn" style="width: 100%; padding: 16px; font-size: 1rem;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
